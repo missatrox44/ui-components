@@ -13,10 +13,12 @@ export default function Billing() {
   return (
     <section id="billing">
       {/* Main container */}
-      <div className="flex min-h-screen items-center justify-center bg-lilac rounded-2xl py-40 px-36">
+      <div className="flex min-h-screen items-center justify-center bg-lilac rounded-2xl py-40 px-36 relative">
 
+        {/* Background rectangle */}
+        <div className="absolute bg-orangeish w-[300px] h-[1000px] left-[25%] top-[10%] z-0 rounded-2xl"></div>
 
-        <div className="border border-blue-500 bg-lighterlilac rounded-l-2xl relative z-10">
+        <div className="border border-blue-500 bg-lighterlilac rounded-l-2xl z-10">
           {/* user info */}
           <div className="pt-8 px-10 pb-20 flex items-center justify-center">
             <img src="./images/headshot.jpg" alt="" className="rounded-xl w-24" />
