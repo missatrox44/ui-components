@@ -3,11 +3,11 @@ import { MdCropDin, MdLock, MdEmail, MdCreditCard, MdApps, MdLogout } from "reac
 
 export default function Billing() {
   const menuItems = [
-    { name: 'General', icon: MdCropDin, isSelected: false },
-    { name: 'Password', icon: MdLock, isSelected: false },
-    { name: 'Invitations', icon: MdEmail, isSelected: false },
-    { name: 'Billing', icon: MdCreditCard, isSelected: true },
-    { name: 'Apps', icon: MdApps, isSelected: false },
+    { menuName: 'General', icon: MdCropDin, isSelected: false },
+    { menuName: 'Password', icon: MdLock, isSelected: false },
+    { menuName: 'Invitations', icon: MdEmail, isSelected: false },
+    { menuName: 'Billing', icon: MdCreditCard, isSelected: true },
+    { menuName: 'Apps', icon: MdApps, isSelected: false },
   ];
 
   return (
@@ -29,15 +29,15 @@ export default function Billing() {
           </div>
 
           <ul className="pl-2 text-gray-500 text-lg space-y-7 font-light mb-72">
-            {menuItems.map((item, index) => (
+            {menuItems.map(({ isSelected, icon: Icon, menuName }, index) => (
               <li
                 key={index}
-                className={`flex items-center space-x-4 pl-8  ${item.isSelected ? 'border-l border-l-orangeish border-l-[6px] ' : ''}`}
+                className={`flex items-center space-x-4 pl-8  ${isSelected ? 'border-l border-l-orangeish border-l-[6px] ' : ''}`}
               >
-                <div className={`h-10 w-10  ${item.isSelected ? 'ml-[-5px]' : ''}`}>
-                  <item.icon className="h-full w-full" />
+                <div className={`h-10 w-10  ${isSelected ? 'ml-[-5px]' : ''}`}>
+                  <Icon className="h-full w-full" />
                 </div>
-                <p>{item.name}</p>
+                <p>{menuName}</p>
               </li>
             ))}
           </ul>
