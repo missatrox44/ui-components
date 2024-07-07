@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         lilac: '#E8E8FD',
+        lighterlilac: '#f8f8ff',
         darkMaroon: '#611F17',
         orangeish: '#EE4D38',
 
