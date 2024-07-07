@@ -18,7 +18,7 @@ export default function Billing() {
         {/* Background rectangle */}
         <div className="absolute bg-orangeish w-[300px] h-[1000px] left-[25%] top-[10%] z-0 rounded-2xl"></div>
 
-        <div className="border border-blue-500 bg-lighterlilac rounded-l-2xl z-10">
+        <div className=" bg-lighterlilac rounded-l-2xl z-10 min-w-72">
           {/* user info */}
           <div className="pt-8 px-10 pb-20 flex items-center justify-center">
             <img src="./images/headshot.jpg" alt="" className="rounded-xl w-24" />
@@ -48,9 +48,21 @@ export default function Billing() {
             <p className="font-light text-lg">Log out</p>
           </div>
         </div>
-        {/* <div className="bg-white rounded-r-2xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo accusantium, esse explicabo quasi numquam dolor delectus fugit reiciendis inventore quaerat assumenda. Consequuntur fuga ab accusamus officia dignissimos vel laudantium ea.
-        </div> */}
+        <div className="z-10 bg-white rounded-r-2xl py-14 px-10">
+          <h1 className="font-bold text-3xl mb-10">Billing</h1>
+          <div className="flex space-x-10">
+            <div className="flex flex-col">
+              <p className="font-bold">Order History</p>
+              <p className="font-light text-sm">Manage billing information and view receipts</p>
+            </div>
+            <div className="flex flex-col bg-orangeish text-white p-6 rounded-2xl">
+              <p className="text-sm font-light mb-3">Your plan</p>
+              <p className="font-bold mb-2">Pro Annual</p>
+              <p className="text-xs font-light mb-4">Renews on Nov, 2025</p>
+              <button className="border border-white rounded-full p-2 text-sm">Cancel subscription</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
