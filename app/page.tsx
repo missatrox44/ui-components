@@ -3,7 +3,7 @@ import { Billing, PricingCard } from "@/components";
 export default function Home() {
   return (
     <main>
-      <Billing />
+      {/* <Billing /> */}
       <PricingCard />
     </main>
   );
