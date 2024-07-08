@@ -1,9 +1,10 @@
-import Billing from "@/components/Billing/Billing";
+import { Billing, PricingCard } from "@/components";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <Billing />
+      <PricingCard />
     </main>
   );
 }

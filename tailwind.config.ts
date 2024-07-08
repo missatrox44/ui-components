@@ -13,7 +13,8 @@ const config: Config = {
         lighterlilac: '#f8f8ff',
         darkMaroon: '#611F17',
         orangeish: '#EE4D38',
-
+        superLightBlue: '#F5F9FE',
+        deepNavyBlue: '#133E61'
       }
     },
   },
