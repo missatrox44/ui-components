@@ -17,14 +17,15 @@ export default function Billing() {
     { menuName: "Apps", icon: MdApps, isSelected: false },
   ];
 
-  // {/* Background rectangle */}
-  // <div className="absolute bg-orangeish w-[300px] h-[1000px] left-[25%] top-[10%] z-0 rounded-2xl"></div>
   return (
     <section id="billing">
       {/* Main container */}
-      <div className="flex min-h-screen items-center justify-center bg-lilac ">
-        <div className="flex">
-          <div className="bg-lighterlilac rounded-l-2xl z-10 w-fit py-8">
+      <div className="flex min-h-screen items-center justify-center bg-lilac">
+        <div className="flex shadow-2xl rounded-2xl relative">
+          {/* background rectangle */}
+        <div className="absolute bg-orangeish w-[300px] h-full left-[-1.25rem] top-[-1.25rem] z-0 rounded-2xl"></div>
+          <div className="z-20 bg-lighterlilac rounded-l-2xl w-fit py-8 ">
+   
             {/* user info */}
             <div className=" px-10 pb-20 flex items-center justify-center">
               <img
