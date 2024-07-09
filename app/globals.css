@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .billing_page_table_row {
+    @apply hover:shadow-xl rounded-2xl;
+  }
+
+  .billing_page_btn {
+    @apply px-3 py-2 rounded-lg border-2 border-gray-300  focus:bg-orangeish focus:text-white;
+  }
+}

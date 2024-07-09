@@ -7,6 +7,8 @@ import {
   MdApps,
   MdLogout,
 } from "react-icons/md";
+import classNames from "classnames";
+import styles from "./styles.module.css";
 
 export default function Billing() {
   const menuItems = [
@@ -84,38 +86,38 @@ export default function Billing() {
                     </tr>
                   </thead>
                   <tbody className="font-semibold">
-                    <tr className="hover:shadow-xl rounded-2xl">
+                    <tr className="billing_page_table_row">
                       <td className="py-3 pr-20 pl-4">Oct. 21, 2024</td>
                       <td className="py-3 pr-20 ">Pro Annual</td>
                       <td className="py-3 pr-4 ">
-                        <button className="px-3 py-2 rounded-lg border-2 border-gray-300 focus:bg-orangeish focus:text-white">
+                        <button className="billing_page_btn">
                           Download
                         </button>
                       </td>
                     </tr>
-                    <tr className="hover:shadow-xl rounded-2xl">
+                    <tr className="billing_page_table_row">
                       <td className="py-3 pr-20 pl-4">Oct. 21, 2024</td>
                       <td className="py-3 pr-20 ">Pro Annual</td>
                       <td className="py-3 pr-4 ">
-                        <button className="px-3 py-2 rounded-lg border-2 border-gray-300 focus:bg-orangeish focus:text-white">
+                        <button className="billing_page_btn">
                           Download
                         </button>
                       </td>
                     </tr>
-                    <tr className="hover:shadow-xl rounded-2xl">
+                    <tr className="billing_page_table_row">
                       <td className="py-3 pr-20 pl-4">Oct. 21, 2024</td>
                       <td className="py-3 pr-20 ">Pro Annual</td>
                       <td className="py-3 pr-4 ">
-                        <button className="px-3 py-2 rounded-lg border-2 border-gray-300 focus:bg-orangeish focus:text-white">
+                        <button className="billing_page_btn">
                           Download
                         </button>
                       </td>
                     </tr>
-                    <tr className="hover:shadow-xl rounded-2xl">
+                    <tr className="billing_page_table_row">
                       <td className="py-3 pr-20 pl-4">Oct. 21, 2024</td>
                       <td className="py-3 pr-20 ">Pro Annual</td>
                       <td className="py-3 pr-4 ">
-                        <button className="px-3 py-2 rounded-lg border-2 border-gray-300 focus:bg-orangeish focus:text-white">
+                        <button className="billing_page_btn">
                           Download
                         </button>
                       </td>
@@ -141,7 +143,7 @@ export default function Billing() {
                       />
                     </div>
                     <p className="font-semibold mr-20">Visa ending in 2255</p>
-                    <button className="px-3 py-2 rounded-lg border-2 border-gray-300 focus:bg-orangeish focus:text-white justify-end">
+                    <button className="billing_page_btn justify-end font-semibold">
                       Remove
                     </button>
                   </div>
