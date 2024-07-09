@@ -14,6 +14,7 @@ const config: Config = {
         darkMaroon: '#611F17',
         orangeish: '#EE4D38',
         superLightBlue: '#F5F9FE',
+        lightBlue: '#E8F1FD',
         deepNavyBlue: '#133E61'
       }
     },
