@@ -21,8 +21,9 @@ export const pricingCardsData = [
     id: 2,
     title: "Premium",
     price: "12",
-    description: "Per user per month",
-    buttonText: "Best for teams that need to track multiple projects.",
+    subText: "Per user per month",
+    description: "Best for teams that need to track multiple projects.",
+    buttonText: "Try for free",
     buttonColor: "pastelOrange",
   },
 ]
