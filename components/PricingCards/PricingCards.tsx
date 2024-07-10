@@ -12,7 +12,7 @@ const buttonColorClasses: Record<string, string> = {
 export default function PricingCards() {
   return (
     <section id="pricing-cards">
-      <div className="flex min-h-screen items-center justify-center px-10 bg-lilac">
+      <div className="flex min-h-screen items-center justify-center px-10 md:px-20 lg:px-40 bg-lilac">
         <div className="bg-white p-4 rounded-xl">
           <div className="grid grid-cols-1 md:grid-cols-3 p-10 bg-amber-50 rounded-xl gap-x-6 gap-y-6">
             {pricingCardsData.map((card) => (
