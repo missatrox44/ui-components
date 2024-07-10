@@ -15,7 +15,10 @@ const config: Config = {
         orangeish: '#EE4D38',
         superLightBlue: '#F5F9FE',
         lightBlue: '#E8F1FD',
-        deepNavyBlue: '#133E61'
+        deepNavyBlue: '#133E61',
+        pastelFuschia: '#EDBBFF',
+        pastelBlue: '#ADF1F5',
+        pastelOrange: '#FEDDB6'
       }
     },
   },
