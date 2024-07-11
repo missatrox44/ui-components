@@ -4,7 +4,7 @@ export default function PricingCard() {
   return (
     <section id="pricing-card">
 
-      <div className="flex min-h-screen items-center justify-center bg-superLightBlue px-10">
+      <div className="flex min-h-screen items-center justify-center bg-superLightBlue p-10">
         {/* relative container for the card */}
         <div className="relative flex flex-col max-w-xs">
           {/* Background element behind the pricing card */}

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  /* billing page custom classes */
   .billing_page_table_row {
     @apply hover:shadow-xl rounded-2xl;
   }
