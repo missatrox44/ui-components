@@ -1,11 +1,12 @@
-import { Billing, PricingCard, PricingCards } from "@/components";
+import { Billing, PricingCard, PricingCards, Login} from "@/components";
 
 export default function Home() {
   return (
     <main>
-      <Billing />
+      <Login />
+      {/* <Billing />
       <PricingCard />
-      <PricingCards />
+      <PricingCards /> */}
     </main>
   );
 }
